@@ -44,7 +44,7 @@
          "requires" : {
             "Archive::Zip" : "0",
             "XML::Parser::Expat" : "0",
-            "perl" : "5.008001"
+            "perl" : "5.010"
          }
       },
       "test" : {
@@ -56,7 +56,7 @@
    "provides" : {
       "Data::XLSX::Parser" : {
          "file" : "lib/Data/XLSX/Parser.pm",
-         "version" : "0.10"
+         "version" : "0.11"
       },
       "Data::XLSX::Parser::DocumentArchive" : {
          "file" : "lib/Data/XLSX/Parser/DocumentArchive.pm"
@@ -88,7 +88,7 @@
          "web" : "https://github.com/acidlemon/Data-XLSX-Parser"
       }
    },
-   "version" : "0.10",
+   "version" : "0.11",
    "x_contributors" : [
       "Masatoshi Kawazoe (acidlemon) <kawazoe-masatoshi@kayac.com>",
       "Shinichiro Sei <sei@kayac.com>",
